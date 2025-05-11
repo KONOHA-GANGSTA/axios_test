@@ -1,0 +1,48 @@
+.layout {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tile {
+  padding: 15px 10px;
+  border-radius: 10px;
+  background-color: rgba(222, 184, 135, 0.521);
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loading {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.loading,
+.error {
+  font-size: 40px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.genre {
+  background-color: goldenrod;
+  border-radius: 4px;
+  padding: 5px;
+}
